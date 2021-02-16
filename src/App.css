@@ -4,7 +4,7 @@
   display: grid;
   grid-template-areas: 
   "h h"
-  "nav contet";
+  "nav content";
 
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
@@ -12,4 +12,7 @@
 
 
 
-
+.app-wrapper-content {
+  grid-area: content;
+  background-color: slateblue;
+}
